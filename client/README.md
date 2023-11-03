@@ -20,4 +20,4 @@
 >
 > Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-npm run client
+npm run client.
