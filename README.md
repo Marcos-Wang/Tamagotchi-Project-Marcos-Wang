@@ -21,3 +21,7 @@
 > Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
 npm run client.
+
+##
+
+<a target="_blank" href="https://icons8.com/icon/18066/leaf">Leaf</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
