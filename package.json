@@ -27,5 +27,8 @@
   "homepage": "https://github.com/Marcos-Wang/Module-11-Note-Taker-Marcos-Wang#readme",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "create-react-app": "^5.0.1"
   }
 }
