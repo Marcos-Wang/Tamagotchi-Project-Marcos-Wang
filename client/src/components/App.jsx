@@ -2,10 +2,11 @@ import { useState } from 'react'
 import danuIdle from '../assets/DanuIdle.png'
 import '../styles/App.css'
 
-import Title from './Title.jsx'
-// import Monitor from './Monitor.jsx'
-// import Response from './Response.jsx'
-// import Sidebar from './Sidebar.jsx'
+import Header from './Header.jsx'
+// import View from './View.jsx'
+// import Text from './Text.jsx'
+// import Buttons from './Buttons.jsx'
+// import Modal from './Modal.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
           <img src={danuIdle} className="logo react" alt="React logo" />
         </a>
       </div>
-      <Title />
+      <Header />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
