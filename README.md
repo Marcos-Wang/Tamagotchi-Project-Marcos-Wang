@@ -25,3 +25,5 @@ npm run client.
 ##
 
 <a target="_blank" href="https://icons8.com/icon/18066/leaf">Leaf</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+[Stock background image](https://unsplash.com/photos/trees-on-forest-with-sun-rays-sp-p7uuT0tw) provided by [Unsplash](https://unsplash.com) and taken by Sebastian Unrau.
