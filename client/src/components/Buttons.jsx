@@ -33,11 +33,7 @@ const [timed, setTimed] = useState (10)
     setTimed(preVal => preVal - 1);
     
 
-    if (timed == 0) {
-        setDisplayImage(danuIdle);
-
-        setText("Danuki is just looking, enjoying your company!");
-      }
+    
 
       if (timed == -25) {
         setDisplayImage(danuSit);
@@ -45,17 +41,25 @@ const [timed, setTimed] = useState (10)
         setText("Danuki is sitting down, slowly calming down...");
       }
 
-      if (timed%60 == 0) {
+      if (timed%60 == 0 && timed < 0) {
         setText(
             "Danuki has gone to sleep. He's gonna be full of energy again in no time! \n He's been sleeping for a total of " + parseInt(counterSleep/60) + " minute(s)... What a sleepy guy... His current energy is enough to play again " + energy + " times."
           );
       }
 
-      if (timed%65 == 0) {
+      
+
+      if (timed%65 == 0 && timed < 0) {
         setEnergy(preVal => preVal + 1)
         setText(
             "Danuki has gone to sleep. He's gonna be full of energy again in no time! \n He's been sleeping for a total of " + parseInt(counterSleep/60) + " minute(s)... What a sleepy guy... His current energy is enough to play again " + energy + " times."
           );
+      }
+
+      if (timed == 0) {
+        setDisplayImage(danuIdle);
+
+        setText("Danuki is just looking, enjoying your company!");
       }
 
     if (displayImage == danuSleep){
