@@ -49,6 +49,8 @@ function Buttons (){
             }
 
             }, 1000);
+
+            
         
             return () => clearInterval(interval);
     
@@ -84,8 +86,10 @@ function Buttons (){
     const handleButtonClickPlay = () => {
 
         setDisplayImage(danuPlay);
-        timer = 7;
+        
         setText("Danuki is having fun with the microphone, he's humming his favorite elevator tunes...")
+        
+        timer = 7;
     
     }
 
