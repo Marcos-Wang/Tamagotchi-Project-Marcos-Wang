@@ -48,6 +48,8 @@ function Buttons (){
             
             }
 
+            console.log(timer)
+
             }, 1000);
 
             
@@ -60,10 +62,10 @@ function Buttons (){
 
     function hello (){
         useEffect(()=>{
-            if(nowHour >= 22 || nowHour <= 10){
+            if(nowHour >= 22 || nowHour <= 8){
                 
                 setDisplayImage(danuSleep);
-                setText("Danuki is a big sleeper, he goes to sleep at 10 and wakes up at 10, but you can wake him up if you want!")
+                setText("Danuki is a big sleeper, he goes to sleep at 10 and wakes up at 9, but you can wake him up if you want!")
                 timer = -100;
             
             }

@@ -1,4 +1,32 @@
-# Tamagotchi-Project-Marcos-Wang
+# ![leaf](./client/assets/icons8-leaf-48.png) Tamagotchi-Project-Marcos-Wang
+
+## Link to Deployed Application:
+
+https://danuki-tamagotchi-c97dce4fa37b.herokuapp.com/
+
+## User Story
+
+```
+AS Someone working on the computer for hours
+I WANT to have a little online buddy
+SO THAT I can keep my mood up through a long work day
+```
+
+## Technologies Used
+
+HTML
+
+CSS
+
+Javascript
+
+React
+
+Vite
+
+## License
+
+MIT License, please refer to the license in the repository.
 
 ## Technical Requirements
 
@@ -20,7 +48,9 @@
 >
 > Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-npm run client.
+# Mockup
+
+![Mockup](./client/assets/TamaMockup.png)
 
 ##
 
