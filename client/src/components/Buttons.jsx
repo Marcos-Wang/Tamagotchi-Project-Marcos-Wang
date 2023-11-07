@@ -69,7 +69,7 @@ const [timed, setTimed] = useState (10)
         
 
     }
-    console.log(timed);
+    
   }
 
   if (intvl?.current) {
