@@ -42,6 +42,7 @@ const [timed, setTimed] = useState (10)
       }
 
       if (timed%60 == 0 && timed < 0) {
+        setDisplayImage(danuSleep);
         setText(
             "Danuki has gone to sleep. He's gonna be full of energy again in no time! \n He's been sleeping for a total of " + parseInt(counterSleep/60) + " minute(s)... What a sleepy guy... His current energy is enough to play again " + energy + " times."
           );
@@ -51,6 +52,8 @@ const [timed, setTimed] = useState (10)
 
       if (timed%65 == 0 && timed < 0) {
         setEnergy(preVal => preVal + 1)
+
+        setDisplayImage(danuSleep);
         setText(
             "Danuki has gone to sleep. He's gonna be full of energy again in no time! \n He's been sleeping for a total of " + parseInt(counterSleep/60) + " minute(s)... What a sleepy guy... His current energy is enough to play again " + energy + " times."
           );
@@ -65,6 +68,8 @@ const [timed, setTimed] = useState (10)
     if (displayImage == danuSleep){
 
         setCounterSleep(preVal => preVal + 1)
+
+        setDisplayImage(danuSleep);
 
         setText(
             "Danuki has gone to sleep. He's gonna be full of energy again in no time! \n He's been sleeping for a total of " + parseInt(counterSleep/60) + " minute(s)... What a sleepy guy... His current energy is enough to play again " + energy + " times."
