@@ -12,7 +12,7 @@ function Contact({show, click}) {
                         <h2>Contact Me</h2>
                     </div>
                     <div className="modal-body">
-                        <p>Contact Me by My Phone Number: 949-506-9610</p>
+                        <p>Contact Me by My Phone Number: 949-506-9616</p>
                         <p>Or Email me at: wangfmarcos@gmail.com</p>
                     </div>
                 </div>
