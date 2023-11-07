@@ -4,7 +4,7 @@ function Head (){
 
     return (
         <>
-            <h1>Tamagotchi!</h1>
+            <h1>Danuki!</h1>
         </>
     )
 
