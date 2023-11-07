@@ -48,8 +48,6 @@ function Buttons (){
             
             }
 
-            console.log(timer)
-
             }, 1000);
 
             
