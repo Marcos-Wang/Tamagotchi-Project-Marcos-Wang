@@ -1,0 +1,18 @@
+.buttons {
+    display: flex;
+    background-color: #b9c6ae;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    
+    
+  }
+.main {
+    width: 100%;
+
+}
+
+.mainView {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    background-color: #d8a47f;
+    
+  }
+
+nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+}
