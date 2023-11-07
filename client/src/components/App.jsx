@@ -3,10 +3,9 @@ import { useState } from 'react'
 import '../styles/App.css'
 
 import Head from './Head.jsx'
-//import View from './View.jsx'
-//import Text from './Text.jsx'
 import Buttons from './Buttons.jsx'
 import Nav from './Nav.jsx'
+import Clock from './Clock.jsx'
 
 function App() {
 
@@ -16,6 +15,7 @@ function App() {
     <>
       
       <Head />
+      <Clock/>
       <Nav />
       <Buttons />
     </>

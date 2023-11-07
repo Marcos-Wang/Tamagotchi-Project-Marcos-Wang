@@ -9,7 +9,7 @@ import danuEat from '../assets/DanuEat.png'
 
 function Buttons (){
 
-    const [displayImage, setDisplayImage] = useState(danuIdle)
+    const [displayImage, setDisplayImage] = useState(danuWave)
 
     const handleButtonClickPlay = () => {
 

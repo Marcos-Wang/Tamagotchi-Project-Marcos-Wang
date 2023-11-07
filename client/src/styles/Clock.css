@@ -1,0 +1,10 @@
+.time {
+    font-weight: 500;
+    color: #f3bd6c;
+    text-decoration: inherit;
+
+}
+
+.time:hover {
+    color: #f2ad53;
+}
