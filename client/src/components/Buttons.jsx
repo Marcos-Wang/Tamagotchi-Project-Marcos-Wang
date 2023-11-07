@@ -141,7 +141,7 @@ const [timed, setTimed] = useState (10)
     setEnergy(preVal => preVal - 1);
 
     setText(
-      "Danuki is having fun with the microphone, he's humming his favorite elevator tunes...\n You have played with him " + counterPlay + " time(s)! He appreciates it"
+      "Danuki is having fun with the microphone, he's humming his favorite elevator tunes...\n You have played with him " + counterPlay + " time(s)! He appreciates it!"
     );
 
     setTimed(7);
